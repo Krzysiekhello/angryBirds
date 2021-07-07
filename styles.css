@@ -1,0 +1,17 @@
+input {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 200px;
+    transform: translate(-50%, -50%);
+    background-color: #00ffaa;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+}
+p {
+    position: absolute;
+    left: 200px;
+    font-size: 32px;
+}

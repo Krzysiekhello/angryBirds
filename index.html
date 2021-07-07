@@ -1,14 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport"
-              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <script src="script.js"></script>
-        <title>Angry Birds</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="styles.css">
+        <script src="sketch.js" defer ></script>
+        <script src="modules/birdAndWalls.mjs" defer></script>
+        <title>Flappy bird</title>
     </head>
     <body>
-
+        <input data-resetButton="resetButton" type="button" value="Start Game">
+        <p data-score="score"></p>
     </body>
 </html>
